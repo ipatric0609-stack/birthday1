@@ -23,26 +23,26 @@ const storyParts = [
 
     {
         chapter: "CHAPTER 1",
-        title: "The Birthday Legend of Axella 😎",
-        text: "Once upon a time, on a very special day, a legend named Axella was born. The world was never the same again. 😂🎉"
+        title: "The Birthday legend Axella 😎",
+        text: "Ku itariki 20.09 habaye ikintu gikomeye ku isi, a legend named Axella was born. The world  never felt the same again. 😂🎉"
     },
 
     {
         chapter: "CHAPTER 2",
         title: "The Main Character Has Arrived 👑",
-        text: "Axella was not just born... Axella entered the world like the main character in a movie. Confidence? 100%. Personality? Unforgettable. 😎🔥"
+        text: "Axella was not just born... Axella entered the world like the main character in a movie. Confidence? 100%. Personality?200% Unforgettable. 😎🔥"
     },
 
     {
         chapter: "CHAPTER 3",
         title: "Another Year Unlocked 🔓",
-        text: "Today, Axella has officially unlocked another level of life. New memories, new adventures, new achievements... and hopefully more cake. 🎂😂"
+        text: "Today, Axella has officially unlocked another level of life, a new chapter of her book of life. New memories, new adventures, new achievements... and hopefully more cake. 🎂😂"
     },
 
     {
         chapter: "FINAL CHAPTER",
         title: "The Birthday Mission 🎯",
-        text: "Your mission today is simple: smile, have fun, enjoy your birthday, and make unforgettable memories. Birthday mode: ACTIVATED! 🎉🔥"
+        text: "Your mission today is simple: smile, have fun, enjoy your birthday, and make unforgettable memories and know you have a lil cuz wagusariye who is always proud of you. Birthday mode: ACTIVATED! 🎉🔥"
     }
 
 ];
@@ -182,7 +182,7 @@ function celebrate() {
 
     createConfetti();
 
-    alert("🎉 HAPPY BIRTHDAY AXELLA! 🎂🥳🔥");
+    alert("UR LIL CUZ PATRICK SAYS :🎉 HAPPY BIRTHDAY AXELLA! 🎂🥳🔥");
 
 }
 
