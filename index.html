@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Axella 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="confetti-container"></div>
+
+    <main class="container">
+
+        <!-- START SCREEN -->
+        <section id="startScreen" class="screen active">
+            <div class="emoji">🎁</div>
+
+            <h1>Hey Axella 👀</h1>
+
+            <p>
+                Someone has prepared a little birthday surprise for you...
+            </p>
+
+            <button onclick="startSurprise()">
+                Open Your Surprise 🎁
+            </button>
+        </section>
+
+
+        <!-- STORY SCREEN -->
+        <section id="storyScreen" class="screen">
+
+            <div class="story-card">
+
+                <span class="chapter">CHAPTER 1</span>
+
+                <h2>The Birthday Legend of Axella 😎</h2>
+
+                <p id="storyText">
+                    Once upon a time, on a very special day,
+                    a legend named Axella was born...
+                </p>
+
+                <button onclick="nextStory()">
+                    Continue the Story ➡️
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- GAME SCREEN -->
+        <section id="gameScreen" class="screen">
+
+            <div class="game-card">
+
+                <span class="chapter">BIRTHDAY CHALLENGE 🎮</span>
+
+                <h2 id="question">Question</h2>
+
+                <div id="answers"></div>
+
+                <p id="gameResult"></p>
+
+            </div>
+
+        </section>
+
+
+        <!-- FINAL MESSAGE -->
+        <section id="finalScreen" class="screen">
+
+            <div class="final-card">
+
+                <div class="birthday-cake">🎂</div>
+
+                <h1>HAPPY BIRTHDAY AXELLA! 🎉</h1>
+
+                <p>
+                    Today is your special day, so enjoy every moment,
+                    laugh as much as possible, eat something delicious,
+                    and remember that you are truly special. 💖
+                </p>
+
+                <p>
+                    May this new year of your life bring you happiness,
+                    success, unforgettable memories, and many reasons to smile.
+                </p>
+
+                <h2>Keep being amazing 😎🔥</h2>
+
+                <button onclick="celebrate()">
+                    Celebrate! 🎉
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
